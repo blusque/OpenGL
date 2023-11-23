@@ -1,0 +1,9 @@
+﻿Application.obj : error LNK2001: 无法解析的外部符号 glfwSwapBuffers
+Application.obj : error LNK2001: 无法解析的外部符号 __imp_glClear
+Application.obj : error LNK2001: 无法解析的外部符号 glfwTerminate
+Application.obj : error LNK2001: 无法解析的外部符号 glfwPollEvents
+Application.obj : error LNK2001: 无法解析的外部符号 glfwInit
+Application.obj : error LNK2001: 无法解析的外部符号 glfwCreateWindow
+Application.obj : error LNK2001: 无法解析的外部符号 glfwMakeContextCurrent
+Application.obj : error LNK2001: 无法解析的外部符号 glfwWindowShouldClose
+F:\vs\TheCherno\x64\Release\OpenGL.exe : fatal error LNK1120: 8 个无法解析的外部命令

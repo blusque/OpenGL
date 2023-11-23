@@ -1,0 +1,53 @@
+﻿  Shader.cpp
+  Debugger.cpp
+  IndexBuffer.cpp
+  Renderer.cpp
+  Application.cpp
+  VertexBuffer.cpp
+  VertexArray.cpp
+F:\vs\TheCherno\OpenGL\src\VertexArray.cpp(31,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
+  VertexBufferLayout.cpp
+  Generating Code...
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "private: unsigned int __cdecl Shader::CreateShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@Shader@@AEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "private: unsigned int __cdecl Shader::CreateShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@Shader@@AEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: __cdecl Shader::~Shader(void)" (??1Shader@@QEAA@XZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "public: int __cdecl Shader::GetUniformLocation(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetUniformLocation@Shader@@QEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "private: unsigned int __cdecl Shader::CreateShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@Shader@@AEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "private: unsigned int __cdecl Shader::CompileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?CompileShader@Shader@@AEBAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewUniform4f referenced in function "public: bool __cdecl Shader::SetUniform4f(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float,float,float,float)" (?SetUniform4f@Shader@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MMMM@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "public: bool __cdecl Shader::Bind(void)const " (?Bind@Shader@@QEBA_NXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "private: unsigned int __cdecl Shader::CreateShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@Shader@@AEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Debugger.obj : error LNK2019: unresolved external symbol __imp_glGetError referenced in function "void __cdecl GlClearError(void)" (?GlClearError@@YAXXZ)
+IndexBuffer.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "public: __cdecl IndexBuffer::IndexBuffer(unsigned int const *,unsigned int)" (??0IndexBuffer@@QEAA@PEBII@Z)
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+IndexBuffer.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "public: __cdecl IndexBuffer::IndexBuffer(unsigned int const *,unsigned int)" (??0IndexBuffer@@QEAA@PEBII@Z)
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+IndexBuffer.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "public: __cdecl IndexBuffer::~IndexBuffer(void)" (??1IndexBuffer@@QEAA@XZ)
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+IndexBuffer.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "public: __cdecl IndexBuffer::IndexBuffer(unsigned int const *,unsigned int)" (??0IndexBuffer@@QEAA@PEBII@Z)
+VertexBuffer.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Renderer.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "public: void __cdecl Renderer::Clear(void)const " (?Clear@Renderer@@QEBAXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol __imp_glDrawElements referenced in function "public: void __cdecl Renderer::Draw(class VertexArray const &,class IndexBuffer const &,class Shader const &)const " (?Draw@Renderer@@QEBAXAEBVVertexArray@@AEBVIndexBuffer@@AEBVShader@@@Z)
+Application.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function main
+Application.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function main
+VertexArray.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "public: bool __cdecl VertexArray::AddBuffer(class VertexBuffer const &,class VertexBufferLayout const &)const " (?AddBuffer@VertexArray@@QEBA_NAEBVVertexBuffer@@AEBVVertexBufferLayout@@@Z)
+VertexArray.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "public: bool __cdecl VertexArray::AddBuffer(class VertexBuffer const &,class VertexBufferLayout const &)const " (?AddBuffer@VertexArray@@QEBA_NAEBVVertexBuffer@@AEBVVertexBufferLayout@@@Z)
+VertexArray.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "public: void __cdecl VertexArray::Bind(void)const " (?Bind@VertexArray@@QEBAXXZ)
+VertexArray.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: __cdecl VertexArray::~VertexArray(void)" (??1VertexArray@@QEAA@XZ)
+VertexArray.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "public: __cdecl VertexArray::VertexArray(void)" (??0VertexArray@@QEAA@XZ)
+F:\vs\TheCherno\Dependencies\GLFW\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+F:\vs\TheCherno\x64\Debug\OpenGL.exe : fatal error LNK1120: 37 unresolved externals
