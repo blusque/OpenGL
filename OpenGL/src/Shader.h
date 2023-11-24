@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include <string>
 #include <unordered_map>
 
@@ -38,3 +39,5 @@ private:
 	unsigned int CreateShader(const std::string& vertexShader, const std::string& fragmentShader);
 };
 
+using ShaderPtr = std::shared_ptr<Shader>;
+using ShaderUniquePtr = std::shared_ptr<Shader>;

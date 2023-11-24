@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include <string>
 
 class Texture
@@ -30,3 +31,5 @@ public:
 	}
 };
 
+using TexturePtr = std::shared_ptr<Texture>;
+using TextureUniquePtr = std::shared_ptr<Texture>;

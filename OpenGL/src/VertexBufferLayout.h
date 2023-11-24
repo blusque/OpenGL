@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include <vector>
 
 #include <GL/glew.h>
@@ -81,4 +82,7 @@ public:
 		return m_Stride;
 	}
 };
+
+using VertexBufferLayoutPtr = std::shared_ptr<VertexBufferLayout>;
+using VertexBufferLayoutUniquePtr = std::shared_ptr<VertexBufferLayout>;
 

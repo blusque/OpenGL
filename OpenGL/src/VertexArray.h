@@ -18,3 +18,5 @@ public:
 	void Unbind() const;
 };
 
+using VertexArrayPtr = std::shared_ptr<VertexArray>;
+using VertexArrayUniquePtr = std::shared_ptr<VertexArray>;

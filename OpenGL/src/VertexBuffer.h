@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 #include <GL/glew.h>
 
 enum class DrawMode
@@ -22,4 +23,7 @@ public:
 
 	void SetBufferData(const void* data, unsigned int size, DrawMode mode = DrawMode::Static) const;
 };
+
+using VertexBufferPtr = std::shared_ptr<VertexBuffer>;
+using VertexBufferUniquePtr = std::shared_ptr<VertexBuffer>;
 

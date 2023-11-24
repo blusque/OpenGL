@@ -21,15 +21,14 @@ namespace test
         void OnRender() override;
         void OnImGuiRender() override;
 
+        static Renderer renderer;
+
     private:
-        unsigned int index[6];
-        float box[16]; 
-        VertexArray vao;
-        VertexBuffer vbo;
-        IndexBuffer ibo;
-        Shader shader;
-        Renderer renderer;
-        Texture tex;
+        VertexArrayUniquePtr m_VAO;
+        VertexBufferUniquePtr m_VBO;
+        IndexBufferUniquePtr m_IBO;
+        ShaderUniquePtr m_Shader;
+        TextureUniquePtr m_Tex;
         glm::vec3 transform;
     };
 }

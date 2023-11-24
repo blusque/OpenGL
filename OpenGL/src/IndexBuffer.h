@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 
 class IndexBuffer
 {
@@ -16,3 +17,5 @@ public:
 	unsigned int GetCount() const;
 };
 
+using IndexBufferPtr = std::shared_ptr<IndexBuffer>;
+using IndexBufferUniquePtr = std::shared_ptr<IndexBuffer>;

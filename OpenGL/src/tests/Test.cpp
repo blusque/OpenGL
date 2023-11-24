@@ -7,17 +7,6 @@
 
 namespace test
 {
-    TestMenu::TestMenu()
-        : m_CurrentTest(nullptr)
-    {
-    }
-
-    TestMenu::~TestMenu()
-    {
-        delete m_CurrentTest;
-        m_CurrentTest = nullptr;
-    }
-
     void TestMenu::OnUpdate(float deltaTime)
     {
         Test::OnUpdate(deltaTime);
@@ -53,8 +42,7 @@ namespace test
             m_CurrentTest->OnImGuiRender();
             if (m_CurrentTest && ImGui::Button("<-"))
             {
-                delete m_CurrentTest;
-                m_CurrentTest = nullptr;
+                m_CurrentTest.reset();
             }
             ImGui::End();
         }
