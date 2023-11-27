@@ -4,6 +4,9 @@ F:\vs\TheCherno\OpenGL\src\IndexBuffer.cpp;F:\vs\TheCherno\OpenGL\Debug\IndexBuf
 F:\vs\TheCherno\OpenGL\src\Renderer.cpp;F:\vs\TheCherno\OpenGL\Debug\Renderer.obj
 F:\vs\TheCherno\OpenGL\src\Application.cpp;F:\vs\TheCherno\OpenGL\Debug\Application.obj
 F:\vs\TheCherno\OpenGL\src\tests\Test.cpp;F:\vs\TheCherno\OpenGL\Debug\Test.obj
+F:\vs\TheCherno\OpenGL\src\tests\TestBatchColor.cpp;F:\vs\TheCherno\OpenGL\Debug\TestBatchColor.obj
+F:\vs\TheCherno\OpenGL\src\tests\TestBatchMove.cpp;F:\vs\TheCherno\OpenGL\Debug\TestBatchMove.obj
+F:\vs\TheCherno\OpenGL\src\tests\TestBatchTexture.cpp;F:\vs\TheCherno\OpenGL\Debug\TestBatchTexture.obj
 F:\vs\TheCherno\OpenGL\src\tests\TestChangeTexture.cpp;F:\vs\TheCherno\OpenGL\Debug\TestChangeTexture.obj
 F:\vs\TheCherno\OpenGL\src\tests\TestClearColor.cpp;F:\vs\TheCherno\OpenGL\Debug\TestClearColor.obj
 F:\vs\TheCherno\OpenGL\src\vendor\glm\detail\glm.cpp;F:\vs\TheCherno\OpenGL\Debug\glm.obj

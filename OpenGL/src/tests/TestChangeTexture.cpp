@@ -58,7 +58,7 @@ void test::TestChangeTexture::OnUpdate(float deltaTime)
 
 void test::TestChangeTexture::OnRender()
 {
-    GlCall(glClearColor(0.2f, 0.3f, 0.8f, 1.f));
+    GlCall(glClearColor(0.2f, 0.2f, 0.2f, 1.f));
     GlCall(glClear(GL_COLOR_BUFFER_BIT));
     renderer.Draw(*m_VAO, *m_IBO, *m_Shader);
 }

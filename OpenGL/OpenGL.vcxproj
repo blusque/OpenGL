@@ -83,9 +83,11 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\GLFW\lib;$(SolutionDir)Dependencies\GLEW\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;glew32s.lib;openGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3_mt.lib;glew32s.lib;openGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
+      <MapExports>true</MapExports>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -151,6 +153,9 @@
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\tests\Test.cpp" />
+    <ClCompile Include="src\tests\TestBatchColor.cpp" />
+    <ClCompile Include="src\tests\TestBatchMove.cpp" />
+    <ClCompile Include="src\tests\TestBatchTexture.cpp" />
     <ClCompile Include="src\tests\TestChangeTexture.cpp" />
     <ClCompile Include="src\tests\TestClearColor.cpp" />
     <ClCompile Include="src\vendor\glm\detail\glm.cpp" />
@@ -176,6 +181,9 @@
     <ClInclude Include="src\Debugger.h" />
     <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\tests\Test.h" />
+    <ClInclude Include="src\tests\TestBatchColor.h" />
+    <ClInclude Include="src\tests\TestBatchMove.h" />
+    <ClInclude Include="src\tests\TestBatchTexture.h" />
     <ClInclude Include="src\tests\TestChangeTexture.h" />
     <ClInclude Include="src\tests\TestClearColor.h" />
     <ClInclude Include="src\vendor\glm\common.hpp" />
@@ -612,6 +620,9 @@
     <ClInclude Include="src\Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="res\shaders\BatchColor.glsl" />
+    <Content Include="res\shaders\BatchMove.glsl" />
+    <Content Include="res\shaders\BatchTexture.glsl" />
     <Content Include="src\vendor\glm\CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -6,24 +6,18 @@
 #include <string>
 #include <fstream>
 #include <iomanip>
-#include <sstream>
 #include <vector>
-#include <utility>
 
-#include "Debugger.h"
-#include "IndexBuffer.h"
-#include "VertexBuffer.h"
 #include "Renderer.h"
-#include "VertexArray.h"
-#include "VertexBufferLayout.h"
-#include "Texture.h"
-#include "Shader.h"
 
 #include "vendor/glm/glm.hpp"
 #include "vendor/glm/gtc/matrix_transform.hpp"
 // Imgui includes
+#include "tests/TestBatchColor.h"
 #include "tests/TestChangeTexture.h"
 #include "tests/TestClearColor.h"
+#include "tests/TestBatchMove.h"
+#include "tests/TestBatchTexture.h"
 #include "vendor/imgui/imgui.h"
 #include "vendor/imgui/imgui_impl_glfw.h"
 #include "vendor/imgui/imgui_impl_opengl3.h"
@@ -200,6 +194,9 @@ int main(void)
 
         Test.Register<test::TestClearColor>("Clear Color");
         Test.Register<test::TestChangeTexture>("Change Texture");
+        Test.Register<test::TestBatchMove>("Batch Move Box");
+        Test.Register<test::TestBatchColor>("Batch Color Box");
+        Test.Register<test::TestBatchTexture>("Batch Texture Box");
         
         /* Loop until the user closes the window */
         while (!glfwWindowShouldClose(window))
